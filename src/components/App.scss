@@ -4,7 +4,7 @@ body {
 
 .appWrapper {
     display: grid;
-    width: 1680px;
+    max-width: 1680px;
     margin: 0 auto;
     grid-template-areas: "sidebar header" "sideBar content";
     grid-template-columns: 200px 12fr;

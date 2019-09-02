@@ -1,0 +1,30 @@
+.searchWrapper {
+    margin-right: 20px;
+    width: 200px;
+    background-color: #fff;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(140, 151, 178);
+    border-radius: 15px;
+    .searchWrapper__panel {
+        padding-left: 18px;
+        padding-right: 18px;
+        .searchInput {
+            border: 0px solid transparent;
+            width: 147px;
+            &:focus {
+                outline: none;
+            }
+        }
+        .searchButton {
+            background-color: red;
+            border: 0px solid transparent;
+            width: 15px;
+            height: 15px;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
