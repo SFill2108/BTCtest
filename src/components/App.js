@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/App.scss';
-import { Route } from "react-router-dom";
+import './App.scss';
 import { BrowserRouter, Router } from "react-router-dom"
 import Header from './Header/Header.jsx';
 class App extends Component {
@@ -8,12 +7,12 @@ class App extends Component {
         return ( <
             BrowserRouter >
             <
-            div >
+            div className = 'appWrapper' >
             <
             Header / >
             <
-            /div> <
-            /BrowserRouter>
+            /div> < /
+            BrowserRouter >
         );
     }
 }
