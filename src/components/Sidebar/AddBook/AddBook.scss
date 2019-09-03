@@ -1,0 +1,29 @@
+.addBookWrapper {
+    width: 200px;
+    height: 119px;
+    border-bottom: 1px solid rgba(218, 223, 234, 0.102);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .addBookButton {
+        width: 160px;
+        height: 44px;
+        border-radius: 4px;
+        background-color: rgb(242, 121, 90);
+        font-size: 14px;
+        font-family: "Arial";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        border: 0px solid transparent;
+        &:focus {
+            outline: none;
+        }
+        &:active {
+            background-color: rgb(238, 107, 75);
+        }
+        span {
+            font-size: 16px;
+        }
+    }
+}
