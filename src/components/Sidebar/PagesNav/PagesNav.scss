@@ -1,0 +1,13 @@
+.pagesNavWrapper {
+    width: 200px;
+    border-bottom: 1px solid rgba(218, 223, 234, 0.102);
+    a {
+        text-decoration: none;
+    }
+    .active {
+         :first-child {
+            background-color: rgb(21, 164, 250);
+            color: white;
+        }
+    }
+}
