@@ -3,14 +3,14 @@ import './Filter.scss';
 import {NavLink} from "react-router-dom";
 
 const Filter = (props) =>{
-    let path = "/" + props.name
     return(
-        <div className='filterRadio'>
+        <NavLink to={"/"+ props.name}>
+        <div className='filter'>
             <div className='item'>
-                <input type="radio" id={props.id} name="filter" value="all" />
-                <label for={props.id}>{props.name}</label>
+                {props.name}
             </div>
         </div>
+        </NavLink>
 
     );
 }

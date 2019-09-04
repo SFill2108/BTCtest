@@ -1,18 +1,7 @@
-.filterRadio {
+.filter {
     .item {
         font-size: 12px;
-        input[type=radio] {
-            display: none;
-        }
-        input[type=radio]+label {
-            display: inline-block;
-            padding: 5px 11px 5px;
-            border-radius: 9px;
-        }
-        input[type=radio]:checked+label {
-            background-image: none;
-            background-color: rgb(151, 179, 206);
-            color: white;
-        }
+        color: #a6afc4;
+        padding: 5px 11px 5px;
     }
 }
