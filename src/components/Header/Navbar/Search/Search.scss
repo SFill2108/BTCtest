@@ -10,6 +10,7 @@
     .searchWrapper__panel {
         padding-left: 18px;
         padding-right: 18px;
+        display: flex;
         .searchInput {
             border: 0px solid transparent;
             width: 147px;
@@ -18,10 +19,11 @@
             }
         }
         .searchButton {
-            background-color: red;
             border: 0px solid transparent;
-            width: 15px;
-            height: 15px;
+            // width: 15px;
+            // height: 15px;
+            background-color: white;
+            color: rgb(140, 151, 178);
             &:focus {
                 outline: none;
             }
