@@ -16,10 +16,18 @@ const Catalog = () =>{
 
     localStorage.setItem("books", books);
 
-
+let R = <figure className="icon-star"></figure>;
     return(
         <div className='catalogWrapper'>
-            <CatalogItem />
+            <CatalogItem img="./../../img/itemImg/book1.png" name="Jewels of Nizam" author="Greeta Davi" rait={R}/>
+            <CatalogItem img="./../../img/itemImg/book1.png" name="Jewels of Nizam" author="Greeta Davi" />
+            <CatalogItem img="./../../img/itemImg/book1.png" name="Jewels of Nizam" author="Greeta Davi" />
+            <CatalogItem img="./../../img/itemImg/book1.png" name="Jewels of Nizam" author="Greeta Davi" />
+            <CatalogItem img="./../../img/itemImg/book1.png" name="Jewels of Nizam" author="Greeta Davi" />
+            <CatalogItem img="./../../img/itemImg/book1.png" name="Jewels of Nizam" author="Greeta Davi" />
+            <CatalogItem img="./../../img/itemImg/book1.png" name="Jewels of Nizam" author="Greeta Davi" />
+            <CatalogItem img="./../../img/itemImg/book1.png" name="Jewels of Nizam" author="Greeta Davi" />
+            <CatalogItem img="./../../img/itemImg/book1.png" name="Jewels of Nizam" author="Greeta Davi" />
         </div>
     );
 }
