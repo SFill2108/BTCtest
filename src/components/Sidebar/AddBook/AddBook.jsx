@@ -6,7 +6,7 @@ const AddBook = () =>{
     return(
         <div className='addBookWrapper'>
                 <button class="addBookButton">
-                    <span>+</span> add a book
+                    <figure className="icon-plus"></figure> add a book
                 </button>
         </div>
     );
