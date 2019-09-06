@@ -1,14 +1,66 @@
-body {
-    margin: 0;
-}
-
-.appWrapper {
-    display: grid;
-    max-width: 1680px;
-    min-width: 760px;
-    margin: 0 auto;
-    grid-template-areas: "sidebar header" "sidebar content";
-    grid-template-columns: 200px 12fr;
-    grid-template-rows: 119px 12fr;
-    font-family: "Arial";
-}
+    body {
+        margin: 0;
+    }
+    
+    .appWrapper {
+        display: grid;
+        max-width: 1680px;
+        min-width: 760px;
+        margin: 0 auto;
+        grid-template-areas: "sidebar header" "sidebar content";
+        grid-template-columns: 200px 12fr;
+        grid-template-rows: 119px 12fr;
+        font-family: "Arial";
+    }
+    
+    figure {
+        margin: 0px;
+        display: inline-block;
+    }
+    
+    @font-face {
+        font-family: 'fontello';
+        src: url('../fonts/fontello.woff2?65629968') format('woff2'), url('../fonts/fontello.woff?65629968') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    [class^="icon-"]:before,
+    [class*=" icon-"]:before {
+        font-family: "fontello";
+        font-style: normal;
+        font-weight: normal;
+        speak: none;
+    }
+    
+    .icon-book:before {
+        content: '\e800';
+    }
+    
+    .icon-search:before {
+        content: '\e801';
+    }
+    
+    .icon-star:before {
+        content: '\e802';
+    }
+    
+    .icon-basket-1:before {
+        content: '\e803';
+    }
+    
+    .icon-th-list:before {
+        content: '\e804';
+    }
+    
+    .icon-clock:before {
+        content: '\e805';
+    }
+    
+    .icon-plus:before {
+        content: '\e806';
+    }
+    
+    .icon-globe:before {
+        content: '\e807';
+    }

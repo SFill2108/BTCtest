@@ -5,7 +5,7 @@ const PageLink = (props) =>{
     return(
         <div className='itemWrapper'>
             <div className="item__icon">
-                {props.icon}
+                <figure className={props.icon}></figure>
             </div>
             <div className="item__link">
                 {props.name}
