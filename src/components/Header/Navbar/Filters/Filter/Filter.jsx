@@ -4,14 +4,13 @@ import {NavLink} from "react-router-dom";
 
 const Filter = (props) =>{
     return(
-        <NavLink to={"/"+ props.name}>
-        <div className='filter'>
+        
+        <div className='filterRadio'>
             <div className='item'>
-                {props.name}
+                <input type="radio" id={props.id} name="filter" value="all" />
+                <label for={props.id}>{props.name}</label>
             </div>
         </div>
-        </NavLink>
-
     );
 }
 

@@ -3,12 +3,16 @@ import './Filters.scss';
 import Filter from './Filter/Filter.jsx'
 
 const Filters = () =>{
+    let filterData =  [
+        {id:1, name:'All Books'},
+        {id:2, name:'Most Recent'},
+        {id:3, name:'Most Popular'},
+        {id:4, name:'Free Books'},
+    ]
+    let filterElements = filterData.map(filter => <Filter name={filter.name} id={filter.id} />);
     return(
         <div className='filtersWrapper'>
-            <Filter name='All&nbsp;Books' id='filter1'/>
-            <Filter name='Most&nbsp;Recent' id='filter2'/>
-            <Filter name='Most&nbsp;Popular' id='filter3'/>
-            <Filter name='Free&nbsp;Books' id='filter4'/>
+            {filterElements}
         </div>
     );
 }

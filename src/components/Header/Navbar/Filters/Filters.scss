@@ -1,14 +1,4 @@
 .filtersWrapper {
     display: flex;
     padding-left: 20px;
-    a {
-        text-decoration: none;
-    }
-    .active {
-         :first-child {
-            color: white;
-            background-color: rgb(151, 179, 206);
-            border-radius: 12px;
-        }
-    }
 }
