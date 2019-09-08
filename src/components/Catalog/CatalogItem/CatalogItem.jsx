@@ -2,12 +2,10 @@ import React,{Component} from 'react';
 import './CatalogItem.scss';
 
 const CatalogItem = (props) =>{
-    
-
     return(
         <div className='itemCard'>
-            <div className="itemImg">
-                
+            <div className="itemImg" id="itemImg">
+                <img src={props.img} alt=""/>
             </div>
             <div className="itemName">
                 <h1>{props.name}</h1>
