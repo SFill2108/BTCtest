@@ -1,6 +1,7 @@
 .sidebarWrapper {
     grid-area: sidebar;
     background-color: rgb(31, 38, 55);
-    height: 910px;
+    height: 100%;
     width: 200px;
+    position: fixed;
 }
