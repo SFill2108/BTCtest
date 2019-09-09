@@ -8,6 +8,7 @@ const PageName = () =>{
         <div className='pageNameContainer'>
             <div className='pageNameContainer__text'>
                 Browse Available Books
+                
             </div>
         </div>
     );
