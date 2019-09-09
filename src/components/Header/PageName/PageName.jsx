@@ -7,8 +7,8 @@ const PageName = () =>{
     return(
         <div className='pageNameContainer'>
             <div className='pageNameContainer__text'>
-                Browse Available Books
-                
+               <h1>Browse Available Books</h1> 
+
             </div>
         </div>
     );

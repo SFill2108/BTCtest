@@ -11,10 +11,10 @@ const CatalogItem = (props) =>{
                 <img src={props.img}></img>
             </div>
             <div className="itemName">
-                <h1>{props.name}</h1>
+                <h2>{props.name}</h2>
             </div>
             <div className="itemAuthor">
-                <h2>by {props.author}</h2>
+                <h3>by {props.author}</h3>
             </div>
             <div className="itemRating">
                 <fieldset className="rating">
