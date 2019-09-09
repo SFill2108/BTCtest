@@ -2,11 +2,10 @@
         width: 200px;
         margin: 30px 0 0 20px;
         .itemImg {
-            width: 200px;
             height: 270px;
             img {
-                width: 200px;
                 height: 270px;
+                width: 200px;
             }
         }
         .itemName {
@@ -27,21 +26,33 @@
                 margin: 0;
             }
         }
-        .itemRaiting {
+        .itemRating {
             margin-top: 12px;
-            color: rgb(255, 171, 0);
-            font-size: 14px;
+            .rating {
+                margin: 0;
+                padding: 0;
+                border: none;
+                .ratingGroup {
+                    position: relative;
+                    width: 71px;
+                    height: 13px;
+                    background-image: url(./../../../img/icons/star-regular.svg);
+                    background-size: 14px auto;
+                    background-repeat: repeat-x;
+                }
+            }
         }
     }
     
     @media (max-width: 1320px) {
         .itemCard {
             width: 250px;
-            margin: 30px 0 0 20px;
             .itemImg {
-                .photo {
+                width: 250px;
+                height: 343px;
+                img {
                     width: 250px;
-                    height: 270px;
+                    height: 343px;
                 }
             }
         }
