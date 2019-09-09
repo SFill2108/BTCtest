@@ -3,7 +3,7 @@ import './App.scss';
 import { BrowserRouter, Router } from "react-router-dom"
 import Header from './Header/Header.jsx';
 import Sidebar from './Sidebar/Sidebar.jsx';
-import Catalog from './Catalog/catalog.jsx';
+import Catalog from './Catalog/Catalog.jsx';
 
 class App extends Component {
     render() {
