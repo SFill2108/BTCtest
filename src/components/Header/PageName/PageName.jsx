@@ -1,6 +1,8 @@
 import React,{Component} from 'react';
 import './PageName.scss'
 
+
+
 const PageName = () =>{
     return(
         <div className='pageNameContainer'>
